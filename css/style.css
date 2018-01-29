@@ -2,17 +2,13 @@ body{
 	font-family: 'Open Sans', sans-serif !important;
 }
 
-.form-inline{
-
-	    width: 70pc;
-}
-
 #logo{
 	width:40px;
 }
 
 #search{
 	width:150px;
+    
 }
 
 .jumbotron .row p{
@@ -156,3 +152,4 @@ blockquote p{
 #cprt{
 	padding-bottom: 1%;
 }
+
