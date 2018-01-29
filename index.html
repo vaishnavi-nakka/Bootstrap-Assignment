@@ -12,30 +12,51 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  
 
 <body>
 
-  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"> <!-- creates header -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top row"> <!-- creates header -->
 
-    <div class="container">
+    <div class="container-fluid">
 
 
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
     	  <span class="navbar-toggler-icon"></span>
  	    </button> 
 
-  		<div class="collapse navbar-collapse" id="collapsibleNavbar">  
+  		<div class="collapse navbar-collapse" id="collapsibleNavbar"> 
 
+          <div class="row">
+          
+          <div class="col-sd-1">
 	  	  <a class="navbar-brand" href="#">
 	        <img src="img/logo.jpg" alt="logo" id="logo">
-	  	  </a>  	  
+	  	  </a>  
+	  	  </div>	  
 
-	  	  <div class="navbar-header">
+	  	  <div class="col-sd-1 navbar-header">
             <a class="navbar-brand" href="#">Harry Potter Series</a>
           </div>
+
+  		  
+  		 
+  		  <div class="col-sd-4 navbar-nav"> <!-- links in header -->
+  		    <div class="col nav-item">
+    		  <a class="nav-link" href="#">Home</a>
+    		</div>>
+    		<div class="col nav-item">
+    		  <a class="nav-link" href="#">Shop</a>
+    		</div>
+    		<div class="col nav-item">
+    		  <a class="nav-link" href="#">SignIn</a>
+    		</div>
+    		<div class="col nav-item">
+    		  <a class="nav-link" href="#">SignUp</a>
+    		</div>
+  		  </div>
+
+  		  <div class="col-md-6" style="">
 
   		  <form class="form-inline" action="#">
     		<input class="form-control mr-sm-2" type="text" placeholder="Search" id="search">
@@ -43,24 +64,9 @@
    		    	<a href="#" class="fa fa-search"></a>
    		    </button>
   		  </form>
+  		  </div>
 
-  		 
-  		  <ul class="navbar-nav ml-auto"> <!-- links in header -->
-  		    <li class="nav-item">
-    		  <a class="nav-link" href="#">Home</a>
-    		</li>
-    		<li class="nav-item">
-    		  <a class="nav-link" href="#">Shop</a>
-    		</li>
-    		<li class="nav-item">
-    		  <a class="nav-link" href="#">SignIn</a>
-    		</li>
-    		<li class="nav-item">
-    		  <a class="nav-link" href="#">SignUp</a>
-    		</li>
-  		  </ul>
-
-
+        </div>
         </div>
     </div> <!-- end of container -->
   </nav> <!-- end of navbar --> 
@@ -128,12 +134,12 @@
 		  </a>
 	  </div>
 
-	  <div class="row" id="desc">
-  		<div class="col">
+	  <div class="row text-center" id="desc">
+  		<div class="col-md-6">
   		  <img class="im img-fluid"  src="img/desc.jpg" alt="Desc" />
   		</div>
 
-  		<div class="col"> <!-- small description -->
+  		<div class="col-md-6"> <!-- small description -->
   			<div class="row">
               <p> Since the release of the first novel, Harry Potter and the Philosopher's Stone, on 26 June 1997, the books have found immense popularity, critical acclaim, and commercial success worldwide. </p>
             </div>
@@ -177,7 +183,7 @@
   <footer class="page-footer">
 
     <!--Footer Links-->
-    <div class="container text-center">
+    <div class="text-center">
 
         
         <div class="links text-center">
@@ -218,6 +224,9 @@
   </footer>
 <!--/.Footer-->
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
 
 </body>
