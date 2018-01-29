@@ -1,0 +1,154 @@
+body{
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+#logo{
+	width:40px;
+}
+
+#search{
+	width:150px;
+}
+
+.jumbotron .row p{
+	font-size: 120%;
+	padding-top: 18%;
+}
+
+#about{
+	padding-right: 1%;
+}
+
+.jumbotron{
+    position: relative;
+    margin-bottom: 0 !important;
+    background: #ffe6e6 !important;
+}
+
+
+
+.carousel-inner img {
+    width: 100%;
+    
+}
+
+
+#desc{
+	padding: 5% 0;
+	background: #ebebe0;
+	margin: 0;
+}
+
+
+.im{
+	width:100%;
+	height:90%;
+}
+
+.social-links span{
+    padding-left: 40%;
+}
+
+.page-footer{
+	background: grey;
+}
+
+.page-footer ul{
+	list-style-type: none;
+	font-size:130%;
+	padding-bottom: 1%;
+}
+
+.page-footer ul li a{ 
+	text-decoration: none;
+
+}
+
+.page-footer ul li a:hover{
+	color:black;
+}
+
+#links{
+	padding-top: 1%;
+
+}
+
+.social-links{
+	border-bottom: 1px solid #4f4f4f;
+}
+
+.links{
+	padding-top: 2%;
+    border-bottom: 1px solid #4f4f4f;
+	overflow: hidden;
+}
+
+.share-links li{
+    display: inline;
+    padding-right: 3%;
+}
+
+.quotes{
+	background:  #e6ecff;
+	overflow: hidden;
+}
+
+blockquote{
+	border-left-style: solid;
+    border-left-width: 2px;
+}
+
+blockquote p{
+    margin-top: 1%;
+    padding: 1%;
+}
+
+.blockquote-footer{
+	padding-left: 1%;
+}
+
+.social-share-page__heading {
+    position: relative;
+    margin: 0 5.08475% 1%;
+    font: 100%/180% "Open Sans", sans-serif;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.cp-rt{
+    text-decoration: none;
+    color: black;
+}
+
+.fa-facebook {
+ 
+    color: #3B5998;
+   
+}
+
+.fa-twitter {
+  
+    color: #55ACEE;
+    
+}
+
+.fa-youtube {
+    color: #FF0000;
+    
+}
+
+.fa-instagram {
+ 
+    color:  #fb3958;
+    
+}
+
+.fa-google-plus {
+ 
+    color:  #d34836;
+    
+}
+
+#cprt{
+	padding-bottom: 1%;
+}

@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Vaishnavi -- Author 
+
+# THANKS
+
+    Ximanta, Dinesh, Nirjhar, Meghana, Garima, Anand.
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, Bootstrap4
+    jQuery, Modernizr
